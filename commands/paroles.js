@@ -3,7 +3,7 @@ import { i18n } from "../utils/i18n.js";
 import lyricsFinder from "lyrics-finder";
 
 export default {
-  name: "lyrics",
+  name: "paroles",
   aliases: ["ly"],
   description: i18n.__("lyrics.description"),
   async execute(message) {
